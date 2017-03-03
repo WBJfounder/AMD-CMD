@@ -13,7 +13,7 @@
  第三个参数，factory，是一个需要进行实例化的函数或者一个对象。
 
  创建模块标识为 alpha 的模块，依赖于 require， export，和标识为 beta 的模块
-<script>
+<pre>
 define("alpha", [ "require", "exports", "beta" ], function( require, exports, beta ){
     export.verb = function(){
         return beta.verb();
@@ -21,9 +21,9 @@ define("alpha", [ "require", "exports", "beta" ], function( require, exports, be
         return require("beta").verb();
     }
 });
-
+</pre>
 一个返回对象字面量的异步模块
-<script>
+<pre>
 define(["alpha"], function( alpha ){
     return {
         verb : function(){
@@ -31,13 +31,12 @@ define(["alpha"], function( alpha ){
         }
     }
 });
-
+</pre>
 无依赖模块可以直接使用对象字面量来定义
-<script>
+<pre>
 define( function( require, exports, module){
     var a = require('a'),
           b = require('b');
-
     exports.action = function(){};
 } );
-
+</pre>
