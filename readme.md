@@ -21,7 +21,7 @@ define("alpha", [ "require", "exports", "beta" ], function( require, exports, be
         return require("beta").verb();
     }
 });
-</script>
+
 一个返回对象字面量的异步模块
 <script>
 define(["alpha"], function( alpha ){
@@ -31,7 +31,7 @@ define(["alpha"], function( alpha ){
         }
     }
 });
-</script>
+
 无依赖模块可以直接使用对象字面量来定义
 <script>
 define( function( require, exports, module){
@@ -40,4 +40,4 @@ define( function( require, exports, module){
 
     exports.action = function(){};
 } );
-</script>
+
