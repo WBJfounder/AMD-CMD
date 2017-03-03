@@ -1,0 +1,24 @@
+AMD规范文档 https://github.com/amdjs/amdjs-api/wiki/AMD
+amdjs 的 require 接口文档 https://github.com/amdjs/amdjs-api/wiki/require
+amdjs 的接口文档 https://github.com/amdjs/amdjs-api/wiki
+RequireJS官网接口文档  http://www.requirejs.org/docs/api.html 
+
+模块系统 https://github.com/seajs/seajs/issues/240
+前端模块化开发的价值 https://github.com/seajs/seajs/issues/547
+前端模块化开发那点历史 https://github.com/seajs/seajs/issues/588
+CMD 模块定义规范 https://github.com/seajs/seajs/issues/242
+SeaJS API快速参考 https://github.com/seajs/seajs/issues/266
+从 CommonJS 到 Sea.js https://github.com/seajs/seajs/issues/269    
+
+RequireJS和AMD规范  http://javascript.ruanyifeng.com/tool/requirejs.html 
+CommonJS规范  http://javascript.ruanyifeng.com/nodejs/commonjs.html
+Javascript模块化编程 http://www.ruanyifeng.com/blog/2012/10/javascript_module.html
+Javascript模块化编程 http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html
+
+知乎  AMD 和 CMD 的区别有哪些？ http://www.zhihu.com/question/20351507 
+
+JavaScript模块化开发 - CommonJS规范 http://www.feeldesignstudio.com/2013/09/javascript-module-pattern-commonjs 
+JavaScript模块化开发 - AMD规范 http://www.feeldesignstudio.com/2013/09/javascript-module-pattern-amd
+
+模块化设计 http://baike.baidu.com/view/189730.htm 
+模块化  http://baike.baidu.com/view/182267.htm 
