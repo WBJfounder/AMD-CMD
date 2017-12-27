@@ -1,5 +1,5 @@
 ## AMD 与 RequireJS
-### AMD
+### AMD 
  Asynchronous Module Definition，用白话文讲就是 异步模块定义，异步是再也熟悉不过的词了，所有的模块将被异步加载，模块加载不影响后面语句运行。所有依赖某些模块的语句均放置在回调函数中。
 
  AMD规范定义了一个自由变量或者说是全局变量 define 的函数。
