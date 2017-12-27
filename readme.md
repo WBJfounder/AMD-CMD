@@ -1,5 +1,5 @@
-##AMD 与 RequireJS
-###AMD
+## AMD 与 RequireJS
+### AMD
  Asynchronous Module Definition，用白话文讲就是 异步模块定义，异步是再也熟悉不过的词了，所有的模块将被异步加载，模块加载不影响后面语句运行。所有依赖某些模块的语句均放置在回调函数中。
 
  AMD规范定义了一个自由变量或者说是全局变量 define 的函数。
@@ -50,7 +50,7 @@ define( function( require, exports, module){
 } );
 </pre>
  在 AMD 规范中的 require 函数与一般的 CommonJS中的 require 不同。由于动态检测依赖关系使加载异步，对于基于回调的 require 需求强烈。
-#####局部与全局的require
+##### 局部与全局的require
 局部的require需要在AMD模式中的define工厂函数传入require
 <pre>
  define(['require'],function(require){
@@ -88,7 +88,7 @@ define( function( require ){
     var temp = require.toUrl('./temp/a.html'); // 加载页面
 } );
 </pre>
-###RequireJS
+### RequireJS
 官网 http://www.requirejs.org/<br>
 API http://www.requirejs.org/docs/api.html<br>
  RequireJS 是一个前端的模块化管理的工具库，遵循AMD规范，它的作者就是AMD规范的创始人 James Burke。所以说RequireJS是对AMD规范的阐述一点也不为过。<br>
@@ -152,8 +152,8 @@ defined用于定义模块，RequireJS要求每个模块均放在独立的文件�
 </pre>
  define 和 require 这两个定义模块，调用模块的方法合称为AMD模式，定义模块清晰，不会污染全局变量，清楚的显示依赖关系。AMD模式可以用于浏览器环境并且允许非同步加载模块，也可以按需动态加载模块。
 
-##CMD与seaJS
-###CMD 
+## CMD与seaJS
+### CMD 
 在CMD中，一个模块就是一个文件，格式为：
 
 define(factory);
@@ -257,7 +257,7 @@ module.dependencies 表示模块的依赖。
 
 module.exports 当前模块对外提供的接口。
 
-###seaJS
+### seaJS
 官网 http://seajs.org/docs/<br>
 API快速参考 https://github.com/seajs/seajs/issues/266
 <pre>
@@ -283,7 +283,7 @@ seajs.use
 });
 </pre>
 其define 与 require 使用方式基本就是CMD规范中的示例。
-##AMD 与 CMD 区别到底在哪里？
+## AMD 与 CMD 区别到底在哪里？
 看了以上 AMD，requireJS 与 CMD， seaJS的简单介绍会有点感觉模糊，总感觉较为相似。因为像 requireJS 其并不是只是纯粹的AMD固有思想，其也是有CMD规范的思想，只不过是推荐 AMD规范方式而已， seaJS也是一样。
 
     AMD 是 RequireJS 在推广过程中对模块定义的规范化产出。
@@ -325,8 +325,8 @@ seajs.use
 
 4. 还有一些细节差异，具体看这个规范的定义就好，就不多说了。
 
-##本文知识简单写了写requirejs和seajs需要详细研究的加我qq929364695（一些扩展资料链接我放到txt文档中可以看下）
-##点赞star啊
+## 本文知识简单写了写requirejs和seajs需要详细研究的加我qq929364695（一些扩展资料链接我放到txt文档中可以看下）
+## 点赞star啊
 
 
 
